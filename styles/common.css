@@ -1,0 +1,27 @@
+/* 公共样式  */
+
+/* 头部   尾部 */
+header,footer{
+    width: 100%;
+}
+/* 版心 */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 浮动 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/* 清除浮动 */
+.clear::after {
+    visibility: hidden; 
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}

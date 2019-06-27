@@ -1,0 +1,120 @@
+/* 顶部样式 */
+.header .top {
+  height: 28px;
+  line-height: 28px;
+  background-color: #101010;
+}
+
+.header .top .loginRegister {
+  height: 28px;
+  line-height: 28px;
+}
+.header .top .loginRegister .test-l {
+  margin-left: 205px;
+  font-size: 18px;
+  color: #e6e6e6;
+}
+.header .top .loginRegister .test-r {
+  font-size: 14px;
+  color: #fbfbfb;
+  margin-right: 5px;
+}
+.header .top .loginRegister .test-r a {
+  color: #ff6600;
+}
+
+/* 搜索框 */
+
+.header .searchShopCart {
+  margin-top: 4px;
+  height: 36px;
+}
+.header .searchShopCart .searchInput {
+  width: 440px;
+  background: #ff6700;
+  height: 36px;
+  margin-right: 36px;
+  font-size: 0;
+}
+.header .searchShopCart .searchInput span {
+  width: 50px;
+  height: 36px;
+  display: inline-block; /* 行内元素的不换行特征，同时也具有块元素的可以设置宽高等特征。 */
+  background-color: red;
+  vertical-align: top;
+  background-image: url("../images/img/bgicon.png");
+}
+.header .searchShopCart .searchInput input {
+  height: 36px;
+  border: 2px solid #ff6700;
+  box-sizing: border-box; /* border和padding计算入width之内 */
+  width: 390px;
+  text-indent: 8px; /* 文本缩进 */
+}
+.header .searchShopCart > ul > li {
+  width: 100px;
+  height: 36px;
+float: left;
+  line-height: 36px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.header .searchShopCart > ul > li:first-child {
+  background-color: #ff6600;
+  border: 1px solid #ff6600;
+  color: #fff;
+  font-size: 14px;
+  background-image:url("../images/img/bgicon.png") ;
+  background-position-y: -42px;
+  text-indent: 35px;
+}
+
+.header .searchShopCart > ul > li:last-child{
+    background-color: #ebebeb;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+}
+
+/* 导航列表 */
+.header .nav{
+height: 30px;
+line-height: 30px;
+margin-top: 15px;
+position: relative;/* 相对定位，是相对于前面的容器定位的 */
+text-align: center;
+}
+/* logo */
+.header .nav .logo{
+    background: red;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 113px;
+    position: absolute ;/* 绝对定位 */
+    background-image: url("../images/img/LOGO_02.jpg");
+    
+}
+
+
+
+
+.header .nav .allClassify{
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+color: #fff;
+    background-color: #ff6600;
+}
+
+.header .nav >ul >li{
+    float: left;
+    width: 80px;
+   height: 30px;
+   line-height: 30px;
+ 
+}
+.header .nav >ul >li a{
+    font-size: 16px;
+    color: #323232;
+  
+}
